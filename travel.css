@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card {
+    margin-bottom: 15px;
+    padding: 25px;
+    box-shadow: 5px 5px 5px rgba(174, 174, 174, 0.235);
+}
+figure img {
+    width: 100%;
+}
+figure {
+    height: 350px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+.card h1 {
+    text-transform: uppercase;
+    font-size: 1.6em;
+    margin: 15px 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.card p {
+    font-size: 1.6em;
+    margin-bottom: 15px;
+}
+.price {
+    font-weight: bold;
+    color: rgba(32, 131, 224, 0.975);
+    font-size: 2.4em;
+    margin: 10px 0;
+}
+.card button {
+    border: none;
+    background-color: rgba(22, 125, 216, 0.954);
+    color: #fff;
+    padding: 1.2em 2.2em;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0 10px;
+}
+@media screen and (min-width: 481px){
+    
+.buy-block {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+figure {
+    width: 100%;
+}
+figure {
+    height: 500px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+.card h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.price {
+    font-size: 2.8em;
+   }
+}
+@media screen and (min-width: 769px){
+
+figure {
+    height: 650px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+.card h1 {
+    font-size: 2.5em;
+    }
+}
+@media screen and (min-width: 1025px){
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+    width: 40%;
+    margin-top: -30px;
+}
+.card h1 {
+    font-size: 1.6em;
+    margin-top: -30px;
+}
+.buy-block {
+    margin: -10px;
+    margin-top: 40px;
+    }
+}
+@media screen and (min-width: 1281px) {
+.wrapper {
+    max-width: 1310px;
+    }
+ }    
